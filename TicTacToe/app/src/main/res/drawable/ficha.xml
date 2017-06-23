@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadiusRatio="4"
+    android:thicknessRatio="4"
+    android:useLevel="false">
+    <!--shape define la figura que vamos a utilizar,innerRadius radio del anillo,
+    thicknes es el espesor del anillo,
+    uselabel permite que ese elemento se use como una imagen-->
+    <solid
+        android:color="#945c5a5a">
+
+    </solid>
+</shape>

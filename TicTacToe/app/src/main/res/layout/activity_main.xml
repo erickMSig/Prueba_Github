@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/tablero"
+        android:stretchColumns="*">
+
+        <TextView
+            android:text="@string/app_name"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            />
+        <TableRow android:layout_weight="1"
+            android:layout_margin="0dp">
+            <ImageButton
+                android:id="@+id/ficha1"
+                style="@style/ficha"
+                />
+            <ImageButton
+                android:id="@+id/ficha2"
+                style="@style/ficha"
+                />
+            <ImageButton
+                android:id="@+id/ficha3"
+                style="@style/ficha"
+                />
+
+        </TableRow>
+        <TableRow android:layout_weight="1"
+            android:layout_margin="0dp">
+            <ImageButton
+                android:id="@+id/ficha4"
+                style="@style/ficha"
+                />
+            <ImageButton
+                android:id="@+id/ficha5"
+                style="@style/ficha"
+                />
+            <ImageButton
+                android:id="@+id/ficha6"
+                style="@style/ficha"
+                />
+
+        </TableRow>
+        <TableRow android:layout_weight="1"
+            android:layout_margin="0dp">
+            <ImageButton
+                android:id="@+id/ficha7"
+                style="@style/ficha"
+                />
+            <ImageButton
+                android:id="@+id/ficha8"
+                style="@style/ficha"
+                />
+            <ImageButton
+                android:id="@+id/ficha9"
+                style="@style/ficha"
+                />
+
+        </TableRow>
+        <TextView
+            android:text="Tu turno"
+            android:textSize="35sp"
+            android:textColor="#000000"/>
+
+    </TableLayout>
+
+</RelativeLayout>

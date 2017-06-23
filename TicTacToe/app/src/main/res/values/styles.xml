@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ficha">
+        <item name="android:src">@drawable/ficha</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="Theme.AppTheme.Light.NoActionBar.Food" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+    </style>
+    <!--El nombre del item es el nombre de la propiedad y en seguida se pone la ubicacion del recurso-->
+
+
+</resources>
